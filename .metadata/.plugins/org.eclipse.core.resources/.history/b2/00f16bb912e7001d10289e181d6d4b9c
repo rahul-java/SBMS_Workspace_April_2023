@@ -1,0 +1,5 @@
+package sbms.app.db1.repository;
+
+public interface UserRepository {
+
+}

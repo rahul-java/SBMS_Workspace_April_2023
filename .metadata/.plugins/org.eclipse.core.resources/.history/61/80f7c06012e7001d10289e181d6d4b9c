@@ -1,0 +1,6 @@
+package sbms.app.db1.entities;
+
+
+public class User {
+
+}

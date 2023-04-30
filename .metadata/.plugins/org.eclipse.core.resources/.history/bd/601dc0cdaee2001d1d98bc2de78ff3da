@@ -1,0 +1,24 @@
+package sbms.app.rest;
+
+import org.springframework.data.redis.core.HashOperations;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CourseRestController {
+
+	private RedisTemplate<String, String> redisTemplate;
+	private HashOperations<String,Object,Object> opsForHash;
+	
+	public CourseRestController(RedisTemplate<String, String> redisTemplate)
+	{
+		this.redisTemplate=redisTemplate;
+		opsForHash = redisTemplate.opsForHash();
+	}
+	
+	public String storeData()
+	{
+		opsForHash.put("SBMS", "", "AshokIT");
+		return "success";
+	}
+}

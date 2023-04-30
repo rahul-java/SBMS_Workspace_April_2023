@@ -1,0 +1,5 @@
+package sbms.app.config;
+
+public class Db2Config {
+
+}

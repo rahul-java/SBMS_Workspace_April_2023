@@ -1,0 +1,5 @@
+package sbms.app.db2.entities;
+
+public class Book {
+
+}

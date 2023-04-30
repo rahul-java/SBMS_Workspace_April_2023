@@ -1,0 +1,17 @@
+#H2
+spring.db1.datasource.jdbcUrl=jdbc:h2:mem:testdb
+spring.db1.datasource.username=sa
+spring.db1.datasource.password=sa
+spring.db1.datasource.driver-class-name=org.h2.Driver
+
+#MySQL
+spring.db2.datasource.jdbcUrl=jdbc:mysql://localhost:3306/rahuldatabase
+spring.db2.datasource.username=root
+spring.db2.datasource.password=root
+spring.db2.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+server.port=8081

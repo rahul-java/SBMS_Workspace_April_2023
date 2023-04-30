@@ -1,0 +1,9 @@
+package sbms.app.db1.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import sbms.app.db1.entities.User;
+
+public interface UserRepository extends JpaRepository<User, Integer> {
+
+}
