@@ -1,9 +1,0 @@
-package sbms.app.config;
-
-public class RedisConfig {
-
-	public RedisConfig() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
